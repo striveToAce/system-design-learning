@@ -1,0 +1,53 @@
+heartbeat message:
+                mechanism: to check failed or crashed server in distributed system
+
+AJAX Polling (short polling):
+                client request - server response - can be empty or data
+                client request repeatedly
+
+
+AJAX Long Polling (long polling):
+                client request - server response - cannot be empty
+                server hold the request until data is ready
+                client wait for response
+
+WebSocket:
+                duplex communication between server and client
+                server can send message to client without client request
+                client can send message to server without server request
+
+SSE (Server-Sent Events): 
+                client establish - long term connection where server can send message
+                client cannot send on same connection - it need to use another connection or protocol
+
+
+fundamentals of DS system:
+                data durability, consistency
+                replication
+                paritioning
+                consensus
+
+consistency models:
+                eventual consistency
+                casual consistency
+                sequential consistency
+                strict consistency
+
+type of failure:
+                fail-stop
+                crash
+                ommision
+                byzantine
+
+Availability: - ((total time - downtime)/total time)*100
+
+Reliability: - MTBF/MTTR - (mean time between failure/mean time to recovery)
+
+
+Dimensions of scalability:
+                Size
+                administrative
+                geographical
+
+Maintainability: mean time to repair 
+Reliability : mean time to repair and mean time to failure

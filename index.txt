@@ -51,3 +51,7 @@ Dimensions of scalability:
 
 Maintainability: mean time to repair 
 Reliability : mean time to repair and mean time to failure
+
+Fault tolerance:
+                replication
+                checkpointing (consistent checkpointing, in-consistent checkpointing)
